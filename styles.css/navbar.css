@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--black);
+    padding: 20px 36px;
+}
+
+.navbar_title{
+    color: var(--white);
+    font-size: 40px;
+    line-height: 44px;
+    font-family: "Bebas neue", sans-serif;
+
+}
+
+
+.navbar_title span {
+    color: var(--primary);
+}
+
+
+.navbar_links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_links li a{
+    color: var(--white);
+    font-family: "Bebas neue", sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+@media (max-width: 1023px){
+    .navbar{
+        flex-direction: column;
+    }
+}
